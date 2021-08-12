@@ -7,7 +7,7 @@ namespace AddressBookSystem
         static void Main(string[] args)
         {
             Console.WriteLine("Hello! Welcome to Address Book.");
-            Console.WriteLine("=================================\nChoose the operation:\n1.Add Contact.\n2.View Contact Info.\n3.Exit Adress Book Application.\n=================================");
+            Console.WriteLine("=================================\nChoose the operation:\n1.Add Contact.\n2.View Saved Contacts.\n3.Exit Adress Book Application.\n=================================");
             int userInput = Convert.ToInt32(Console.ReadLine());
             var addressBook = new AddressBook();
 
@@ -45,7 +45,7 @@ namespace AddressBookSystem
                         break;
 
                 }
-                Console.WriteLine("=================================\nChoose the operation:\n1.Add Contact.\n2.View Contact Info.\n3.Exit Adress Book Application.\n=================================");
+                Console.WriteLine("=================================\nChoose the operation:\n1.Add Contact.\n2.View Saved Contacts.\n3.Exit Adress Book Application.\n=================================");
                 userInput = Convert.ToInt32(Console.ReadLine());
             }
         }
