@@ -8,14 +8,14 @@ namespace AddressBookSystem
     {
         public Contact(string firstname, string lastname, string address, string city, string state, string zipcode, string phonenumber, string email)
         {
-            FirstName = firstname;
-            LastName = lastname;
-            Address = address;
-            City = city;
-            State = state;
-            ZipCode = zipcode;
-            PhoneNumber = phonenumber;
-            Email = email;
+            this.FirstName = firstname;
+            this.LastName = lastname;
+            this.Address = address;
+            this.City = city;
+            this.State = state;
+            this.ZipCode = zipcode;
+            this.PhoneNumber = phonenumber;
+            this.Email = email;
         }
         public string FirstName { get; set; }
         public string LastName { get; set; }
