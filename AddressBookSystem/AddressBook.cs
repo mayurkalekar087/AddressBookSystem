@@ -239,6 +239,10 @@ namespace AddressBookSystem
         {
             FileIO.WriteDataToCSV(DictName);
         }
+        public void ConvertToJson()
+        {
+            Json.WriteToJson(DictName);
+        }
     }
 }
 
